@@ -10,8 +10,7 @@ input.onGesture(Gesture.Shake, function () {
             . # # # .
             . . . . .
             `)
-    }
-    if (_ == 1) {
+    } else if (_ == 1) {
         basic.showLeds(`
             # . . . #
             . # . # .
@@ -19,8 +18,7 @@ input.onGesture(Gesture.Shake, function () {
             # # . # #
             # # . # #
             `)
-    }
-    if (_ == 2) {
+    } else {
         basic.showLeds(`
             # # # # #
             # . . . #
