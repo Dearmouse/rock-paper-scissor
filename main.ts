@@ -1,6 +1,5 @@
 let _ = 0
 input.onGesture(Gesture.Shake, function () {
-    _ = 0
     _ = randint(0, 2)
     if (_ == 0) {
         basic.showLeds(`
